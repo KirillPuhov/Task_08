@@ -1,8 +1,10 @@
 package presentation.console;
 
-import src.domain.*;
+import presentation.console.services.*;
 
 public class Main {
+    private static final InputArgsHelper inputArgsService = new InputArgsService();
+
     public static void main(String[] argv){
 
     }

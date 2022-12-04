@@ -28,7 +28,6 @@ public class FileService implements FileHelper {
         }
     }
 
-    //todo: протестить правильность выполнения метода;
     public boolean writeMatrixInFile(int[][] matrix, String filePath){
         try(PrintWriter out = new PrintWriter(new FileOutputStream(filePath))){
             int columnsCount = matrix[0].length;

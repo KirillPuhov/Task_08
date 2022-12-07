@@ -1,5 +1,7 @@
 package presentation.console.services;
 
+import presentation.console.Main;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -39,8 +41,10 @@ public class InputArgsService implements InputArgsHelper{
             }
         }catch(IllegalArgumentException ex){
             System.err.printf("invalid parameters \"%s\"", key);
+            System.exit(1);
         }catch(Exception ex){
             System.err.printf("invalid argument \"%s\"", value);
+            System.exit(1);
         }
     }
 

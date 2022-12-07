@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Task_08:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a637272-a8ae-46a2-9e7a-40b31ec1fdb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console/src/presentation/console/services/InputArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/Window.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/presentation/window/FrameMain.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/presentation/window/FrameMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/utils/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/utils/DrawUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/utils/JTableUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Window/src/utils/SwingUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Task_08_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Window/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/Console.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Console/Console.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/src/presentation/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Console/src/presentation/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/src/presentation/console/services/InputArgsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Console/src/presentation/console/services/InputArgsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/domain/controllers/MatrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/domain/controllers/MatrixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/domain/interfaces/MatrixHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/domain/interfaces/MatrixHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/domain/services/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/domain/services/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Console/presentation/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Console/presentation/console/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Console/presentation/console/services/InputArgsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Console/presentation/console/services/InputArgsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Console/presentation/console/services/InputArgsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Console/presentation/console/services/InputArgsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Domain/domain/controllers/MatrixController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Domain/domain/controllers/MatrixController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Domain/domain/services/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Domain/domain/services/FileService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
     "last_opened_file_path": "/opt/java/idea-IU-222.4459.24/lib/forms_rt.jar",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -139,6 +123,7 @@
       <workItem from="1670424667800" duration="451000" />
       <workItem from="1670425183788" duration="1015000" />
       <workItem from="1670426281458" duration="6759000" />
+      <workItem from="1670433895624" duration="575000" />
     </task>
     <servers />
   </component>

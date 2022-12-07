@@ -8,5 +8,6 @@
     <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Domain" exported="" />
+    <orderEntry type="module" module-name="Window" exported="" />
   </component>
 </module>

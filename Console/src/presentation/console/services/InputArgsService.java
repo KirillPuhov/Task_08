@@ -30,7 +30,7 @@ public class InputArgsService implements InputArgsHelper{
                 } else {
                     throw new IllegalArgumentException();
                 }
-                value = parts[1].toLowerCase();
+                value = parts[1];
 
                 if(key.equals("interface") && !argsValidate(value, validValues))
                     throw new Exception();

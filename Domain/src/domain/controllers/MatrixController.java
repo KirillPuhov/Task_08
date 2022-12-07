@@ -13,6 +13,14 @@ public final class MatrixController implements MatrixHelper {
         this.matrix = new int[1][1];
     }
 
+    public int[][] getMatrix() {
+        return matrix;
+    }
+
+    public void setMatrix(int[][] matrix) {
+        this.matrix = matrix;
+    }
+
     public void openMatrix(String filePath) {
         matrix = fileService.readFileInMatrix(filePath);
     }
@@ -33,15 +41,19 @@ public final class MatrixController implements MatrixHelper {
 
         for(int i = 0; i < matrix.length; i++){
             if(isHomogeneous(matrix[i])){
-                currentMatrix = deleteRow(currentMatrix, i+offsetRows);
+                currentMatrix = deleteRow(currentMatrix, i-offsetRows);
                 offsetRows++;
+            }
+            if(offsetRows == matrix.length){
+                matrix = new int[1][];
+                break;
             }
             var column = new int[matrix.length];
             for(int j = 0; j < matrix.length; j++){
                 column[j] = matrix[j][i];
             }
             if(isHomogeneous(column)){
-                currentMatrix = deleteColumn(currentMatrix, i+offsetColumns);
+                currentMatrix = deleteColumn(currentMatrix, i-offsetColumns);
                 offsetColumns++;
             }
         }
@@ -108,7 +120,7 @@ public final class MatrixController implements MatrixHelper {
         System.out.println();
         for(int i = 0;i < matrix.length; i++){
             for(int j = 0;j < matrix[i].length; j++){
-                System.out.print(matrix[i][j]);
+                System.out.printf("%d ",matrix[i][j]);
             }
             System.out.println();
         }

@@ -11,7 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7a637272-a8ae-46a2-9e7a-40b31ec1fdb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console/src/presentation/console/services/InputArgsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Console/src/presentation/console/services/InputArgsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Window/src/presentation/window/FrameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Window/src/presentation/window/FrameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Window/presentation/window/FrameMain$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/presentation/window/FrameMain$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Window/presentation/window/FrameMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Window/presentation/window/FrameMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;167&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/opt/java/idea-IU-222.4459.24/lib/forms_rt.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yukir/IdeaProjects/Task_08&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -75,7 +77,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="presentation.console.Main" />
       <module name="Console" />
-      <option name="PROGRAM_PARAMETERS" value="--input=$USER_HOME$/Documents/input05.txt --output=$USER_HOME$/Documents/output.txt --interface=console" />
+      <option name="PROGRAM_PARAMETERS" value="--input=$USER_HOME$/Documents/input05.txt --output=$USER_HOME$/Documents/output.txt --interface=window" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="presentation.console.*" />
@@ -124,6 +126,11 @@
       <workItem from="1670426281458" duration="6759000" />
       <workItem from="1670433895624" duration="575000" />
       <workItem from="1670440869193" duration="430000" />
+      <workItem from="1670484454358" duration="59000" />
+      <workItem from="1670484680101" duration="255000" />
+      <workItem from="1670485094842" duration="30000" />
+      <workItem from="1670504788685" duration="162000" />
+      <workItem from="1670505096663" duration="2000" />
     </task>
     <servers />
   </component>

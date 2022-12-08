@@ -128,6 +128,7 @@ public class FrameMain extends JFrame {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
+                    matrixService.setMatrix(JTableUtils.readIntMatrixFromJTable(tableInput));
                     matrixService.doTask();
                     JTableUtils.writeArrayToJTable(tableOutput, matrixService.getMatrix());
                 } catch (Exception e) {
